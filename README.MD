@@ -78,16 +78,15 @@ Enter 'q' to quit the program.
     }
 
 ## Running the simulator Example:
-   ```cargo run
-   Enter a string to test (or 'q' to quit):
-   100
-   The string '100' is rejected by the DFA.
-   Enter a string to test (or 'q' to quit):
-   1100
-   The string '1100' is accepted by the DFA.
-   Enter a string to test (or 'q' to quit):
-   q
-
+      ```cargo run
+      Enter a string to test (or 'q' to quit):
+      100
+      The string '100' is rejected by the DFA.
+      Enter a string to test (or 'q' to quit):
+      1100
+      The string '1100' is accepted by the DFA.
+      Enter a string to test (or 'q' to quit):
+      q
 
 # Notes
 
