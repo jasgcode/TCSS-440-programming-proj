@@ -1,0 +1,37 @@
+# Rust build directory
+/target/
+
+# Rust package manager directory
+Cargo.lock
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.rs.bk
+
+# Debug files
+*.pdb
+
+# Profiling files
+*.profraw
+
+# Environment files
+.env
+
+# Backup files
+*.bak
+*~
+
+# Log files
+*.log
+
+# Dependency directories (if you're using any non-Rust dependencies)
+node_modules/

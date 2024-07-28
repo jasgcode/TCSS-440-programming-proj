@@ -1,0 +1,30 @@
+{
+  "states": {
+    "q0": {
+      "name": "q0",
+      "is_accepting": false,
+      "transitions": {
+        "0": "q0",
+        "1": "q1"
+      }
+    },
+    "q1": {
+      "name": "q1",
+      "is_accepting": false,
+      "transitions": {
+        "0": "q2",
+        "1": "q1"
+      }
+    },
+    "q2": {
+      "name": "q2",
+      "is_accepting": true,
+      "transitions": {
+        "0": "q2",
+        "1": "q1"
+      }
+    }
+  },
+  "alphabet": ["0", "1"],
+  "start_state": "q0"
+}
